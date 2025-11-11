@@ -1,13 +1,5 @@
 import "./App.css";
-
-const Perkenalan = (props) => {
-  return (
-    <div>
-      <h1>Halo, nama saya {props.nama}</h1>
-      <h2>Saya seorang {props.pekerjaan}</h2>
-    </div>
-  );
-};
+import Perkenalan from "./components/perkenalan";
 const App = (props) => {
   return (
     <div>
