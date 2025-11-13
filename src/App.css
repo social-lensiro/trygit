@@ -204,3 +204,69 @@
     justify-content: center;
   }
 }
+.jumlah-wrapper {
+  display: flex;
+  justify-content: center; /* RATA TENGAH HORIZONTAL */
+  align-items: center; /* RATA TENGAH VERTICAL */
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.jumlah {
+  min-width: 30px;
+  text-align: center; /* ANGKA DI TENGAH */
+  font-size: 18px;
+}
+/* ------ Animasi smooth masuk ------- */
+.smooth {
+  animation: fadeIn 0.25s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.93);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* ------ Wrapper tombol - jumlah + ------ */
+.jumlah-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+/* ------ Angka jumlah ------ */
+.jumlah {
+  min-width: 30px;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* ------ Optional basic card layout ------ */
+.card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 10px;
+  width: 250px;
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+button {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+}
